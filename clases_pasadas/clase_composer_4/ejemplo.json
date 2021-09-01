@@ -1,0 +1,9 @@
+{
+    "name": "Aldo",
+    "description": "Academia Online",
+    "courses": {
+        "advanced": ["PHP", "VueJS"],
+        "basic": ["JSON", "HTML"]
+    },
+    "example": false
+}

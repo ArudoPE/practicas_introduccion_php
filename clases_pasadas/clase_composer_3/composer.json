@@ -1,0 +1,24 @@
+{
+    "name": "arudope/php",
+    "description": "Ejemplo composer",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "2.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Arudope\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aldo Ortiz",
+            "email": "aortizparodi@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
