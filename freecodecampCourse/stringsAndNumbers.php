@@ -40,6 +40,14 @@ echo substr($phrase2, 8, 3);
  * We can use: + - * / operators, also the modulus: %
  * If we want to add something to the same value we can use
  * the += // -= // *= // /= operators
+ * abs(number); gives me the absolute value of a number
+ * pow(x,y); gives you x to the y potency.
+ * sqrt(number); gives you the square root of a number
+ * max(x, y); tell us, which is the highest number
+ * min(x, y); tell us, which is the lowest number
+ * round(3.2) = 3, because it rounds the number
+ * ceil(3.2) = 4, because it rounds up to the next highest integer
+ * floor(3.7) = 3, becuase it rounds down to the next lowest integer
  */
 echo "<br/>";
 echo 40;
@@ -67,4 +75,28 @@ echo "<br/>";
 
 $num += 25;
 echo $num;
+echo "<br/>";
+
+echo abs(-100);
+echo "<br/>";
+
+echo pow(2, 4);
+echo "<br/>";
+
+echo sqrt(144);
+echo "<br/>";
+
+echo max(2, 10);
+echo "<br/>";
+
+echo min(2, 10);
+echo "<br/>";
+
+echo round(3.2);
+echo "<br/>";
+
+echo ceil(3.2);
+echo "<br/>";
+
+echo floor(3.9);
 echo "<br/>";
